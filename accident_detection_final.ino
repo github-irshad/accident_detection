@@ -74,7 +74,7 @@ void loop() {
    zaccel = event.acceleration.z;
 
  
-   Serial.println("******Acceleration Values*****")
+   Serial.println("******Acceleration Values*****");
    Serial.print("X: ");
    Serial.print(xaccel);
    Serial.print("  ");
