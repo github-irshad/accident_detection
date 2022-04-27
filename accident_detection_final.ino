@@ -18,16 +18,16 @@ static const char *ssid = "hari Hi9N";
 static const char *password = "01234567";
 
 // Values from Twilio (find them on the dashboard)
-static const char *account_sid = "AC6b9a2c4794771e1e159d5738db846115";
-static const char *auth_token = "0a98e6f842f8384afb845bdd9306f009";
+static const char *account_sid = " ";
+static const char *auth_token = " ";
 
 
 // Phone number should start with "+<countrycode>"
-static const char *from_number = "+17408833409";
+static const char *from_number = " ";
 
 
 // Phone number should start with "+<countrycode>"
-static const char *to_number = "+918138884338";
+static const char *to_number = " ";
 static const char *message = "Your bike KL-11-XX-YYYY may got accident.Last location Co-ordinates: https://maps.google.com/?q=10.00200764110111,76.3173955897416 ";
 
 Twilio *twilio;
